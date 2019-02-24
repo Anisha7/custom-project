@@ -6,7 +6,7 @@ let gameOptions = {
 
 let game = new Kiwi.Game('content', 'SpriteCreator', null, gameOptions);
 
-class spriteCreator extends Component {
+class SpriteCreator extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -15,12 +15,11 @@ class spriteCreator extends Component {
     }
 
     render() {
-        
         return <div id = "content">{{game}}</div>
     }
 }
 
-export default spriteCreator;
+export default SpriteCreator;
 /**
 * The core spriteCreator file.
 * 

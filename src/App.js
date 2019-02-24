@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import spriteCreator from 'spriteCreator'
+import SpriteCreator from 'SpriteCreator'
 
 class App extends Component {
   render() {
@@ -14,7 +14,7 @@ class App extends Component {
           </div>
           
           {/* Display sprite creator here */}
-          {{spriteCreator}}
+          {{SpriteCreator}}
 
           {/* Confirm button here */}
           
