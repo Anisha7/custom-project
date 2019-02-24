@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import spriteCreator from 'spriteCreator'
 
 class App extends Component {
   render() {
@@ -12,7 +13,8 @@ class App extends Component {
             <h4> and download the code! </h4>
           </div>
           
-          {/* Display game here */}
+          {/* Display sprite creator here */}
+          {{spriteCreator}}
 
           {/* Confirm button here */}
           

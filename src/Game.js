@@ -1,5 +1,26 @@
 // create game class which displays left options, character, and right options
+let gameOptions = {
+    width: window.width,
+    height: window.height - 50,
+}
 
+let game = new Kiwi.Game('content', 'SpriteCreator', null, gameOptions);
+
+class spriteCreator extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        };
+    }
+
+    render() {
+        
+        return <div id = "content">{{game}}</div>
+    }
+}
+
+export default spriteCreator;
 /**
 * The core spriteCreator file.
 * 
@@ -10,18 +31,18 @@
 
 
 //Create some gameoptions
-let gameOptions = {
-	width: window.width,
-	height: window.height - 50;
-}
+// let gameOptions = {
+// 	width: window.width,
+// 	height: window.height - 50;
+// }
 
 //Initialise the Kiwi Game. 
 
 /*
 * 'content' is the id of the element the game is going to be place inside of.
-* 'DressUpBlueprint' is the name of the game.
+* 'SpriteCreator' is the name of the game.
 */
-var game = new Kiwi.Game('content', 'DressUpBlueprint', null, gameoptions);
+// var game = new Kiwi.Game('content', 'SpriteCreator', null, gameoptions);
 
 
 //Add all the States we are going to use.
