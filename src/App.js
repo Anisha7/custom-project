@@ -7,6 +7,15 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <div class = "title">
+            <h2> Create your own custom animated sprites </h2> 
+            <h4> and download the code! </h4>
+          </div>
+          
+          {/* Display game here */}
+
+          {/* Confirm button here */}
+          
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
